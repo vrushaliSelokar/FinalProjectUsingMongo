@@ -1,0 +1,50 @@
+.side-bar{
+    width:150px;
+    background-color: blueviolet;
+    height:100vh;
+    float:left;
+}
+
+h1{
+    margin:0;
+}
+.li-aside{
+    float:none;
+}
+.ul-aside{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+ .li-aside  a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .li-aside a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .li-aside a:hover:not(.active) {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .li-aside-item{
+    background: red;
+    transition:height 1s;
+  }
+
+  .li-aside-item:hover{
+    height:300px;
+  }
+  
